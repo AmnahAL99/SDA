@@ -7,7 +7,7 @@ public class C03_ReadData02 {
 
             // Use MySql work database from MySql lessons,,,
             // 1- Create Connection
-            Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/work","root","12341234");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/work","root","123456");
             // 2- Create Statement/Query
             Statement st = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
             // 3- Execute Statement/Query
